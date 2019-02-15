@@ -23,9 +23,7 @@ public class Animator {
 	private static int MAX_FRAME_HEIGHT = 50;
 
 	public static void main(String[] args) throws IOException {
-		// mods/heroesdata.stormmod/base.stormdata/GameData/EmoticonData.xml
-		// mods/heroesdata.stormmod/enus.stormdata/LocalizedData/GameStrings.txt
-		processSpritesheets(loadData("data.json"), 4);
+		processSpritesheets(loadData("emoji-packs.json"), 4);
 	}
 
 	public static List<CPack> loadData(String filename) throws UnsupportedEncodingException {
