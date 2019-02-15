@@ -1,0 +1,107 @@
+[{
+  "name" : "Emoji Plushie",
+  "emoticons" :   [{
+    "id" : "toy_bear_anim",
+    "description" : "Bear Hug",
+    "aliases" : [ "bearhug" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_bear_anim_sheet",
+      "width" : 39,
+      "durationPerFrame" : 150,
+      "count" : 12
+    }
+  }, {
+    "id" : "toy_nerfthis_anim",
+    "description" : "Nerf this!",
+    "aliases" : [ "nerfthis" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_nerfthis_anim_sheet",
+      "width" : 40,
+      "durationPerFrame" : 62,
+      "count" : 4
+    }
+  }, {
+    "id" : "toy_turd_anim",
+    "description" : "Rainbow Poo",
+    "aliases" : [ "rainbowpoo" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_turd_anim_sheet",
+      "width" : 26,
+      "durationPerFrame" : 120,
+      "count" : 8
+    }
+  }, {
+    "id" : "toy_minion_anim",
+    "description" : "Wind-up Minion",
+    "aliases" : [ "toyminion" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_minion_anim_sheet",
+      "width" : 30,
+      "durationPerFrame" : 160,
+      "count" : 6
+    }
+  }, {
+    "id" : "toy_train_anim",
+    "description" : "Train",
+    "aliases" : [ "train" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_train_anim_sheet",
+      "width" : 37,
+      "durationPerFrame" : 200,
+      "count" : 6
+    }
+  }]
+}, {
+  "name" : "Emoji Toys",
+  "emoticons" : [{
+    "id" : "toy_cosmicflurry_anim",
+    "description" : "Cosmic Flurry",
+    "aliases" : [ "cosmicflurry" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_cosmicflurry_anim_sheet",
+      "width" : 40,
+      "durationPerFrame" : 100,
+      "count" : 5
+    }
+  }, {
+    "id" : "toy_dice_anim",
+    "description" : "Dice Roll",
+    "aliases" : [ "dice" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_dice_anim_sheet",
+      "width" : 37,
+      "durationPerFrame" : 100,
+      "count" : 6
+    }
+  }, {
+    "id" : "toy_dino_anim",
+    "description" : "Dino Fight",
+    "aliases" : [ "dinofight" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_dino_anim_sheet",
+      "width" : 34,
+      "durationPerFrame" : 80,
+      "count" : 4
+    }
+  }, {
+    "id" : "toy_herospinner_anim",
+    "description" : "Heroes Spinner!",
+    "aliases" : [ "herospinner" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_herospinner_anim_sheet",
+      "width" : 33,
+      "durationPerFrame" : 25,
+      "count" : 7
+    }
+  }, {
+    "id" : "toy_robots_anim",
+    "description" : "Smash'em Bash'em Robots",
+    "aliases" : [ "robots" ],
+    "image" : {
+      "textureSheet" : "storm_emoji_toy_robots_anim_sheet",
+      "width" : 40,
+      "durationPerFrame" : 120,
+      "count" : 10
+    }
+  }]
+}]

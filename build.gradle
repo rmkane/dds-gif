@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    jcenter()
+    maven {
+    	url 'http://maven.nikr.net' // https://github.com/GoldenGnu/java-dds/
+    }
+}
+
+dependencies {
+    api 'org.apache.commons:commons-math3:3.6.1'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.guava:guava:26.0-jre'
+    implementation 'net.nikr:dds:1.0.0'
+    testImplementation 'junit:junit:4.12'
+}
