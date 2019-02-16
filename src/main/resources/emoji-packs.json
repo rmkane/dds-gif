@@ -1,107 +1,492 @@
-[{
-  "name" : "Emoji Plushie",
-  "emoticons" :   [{
-    "id" : "toy_bear_anim",
-    "description" : "Bear Hug",
-    "aliases" : [ "bearhug" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_bear_anim_sheet",
-      "width" : 39,
-      "durationPerFrame" : 150,
-      "count" : 12
-    }
-  }, {
-    "id" : "toy_nerfthis_anim",
-    "description" : "Nerf this!",
-    "aliases" : [ "nerfthis" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_nerfthis_anim_sheet",
-      "width" : 40,
-      "durationPerFrame" : 62,
-      "count" : 4
-    }
-  }, {
-    "id" : "toy_turd_anim",
-    "description" : "Rainbow Poo",
-    "aliases" : [ "rainbowpoo" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_turd_anim_sheet",
-      "width" : 26,
-      "durationPerFrame" : 120,
-      "count" : 8
-    }
-  }, {
-    "id" : "toy_minion_anim",
-    "description" : "Wind-up Minion",
-    "aliases" : [ "toyminion" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_minion_anim_sheet",
-      "width" : 30,
-      "durationPerFrame" : 160,
-      "count" : 6
-    }
-  }, {
-    "id" : "toy_train_anim",
-    "description" : "Train",
-    "aliases" : [ "train" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_train_anim_sheet",
-      "width" : 37,
-      "durationPerFrame" : 200,
-      "count" : 6
-    }
-  }]
-}, {
-  "name" : "Emoji Toys",
-  "emoticons" : [{
-    "id" : "toy_cosmicflurry_anim",
-    "description" : "Cosmic Flurry",
-    "aliases" : [ "cosmicflurry" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_cosmicflurry_anim_sheet",
-      "width" : 40,
-      "durationPerFrame" : 100,
-      "count" : 5
-    }
-  }, {
-    "id" : "toy_dice_anim",
-    "description" : "Dice Roll",
-    "aliases" : [ "dice" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_dice_anim_sheet",
-      "width" : 37,
-      "durationPerFrame" : 100,
-      "count" : 6
-    }
-  }, {
-    "id" : "toy_dino_anim",
-    "description" : "Dino Fight",
-    "aliases" : [ "dinofight" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_dino_anim_sheet",
-      "width" : 34,
-      "durationPerFrame" : 80,
-      "count" : 4
-    }
-  }, {
-    "id" : "toy_herospinner_anim",
-    "description" : "Heroes Spinner!",
-    "aliases" : [ "herospinner" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_herospinner_anim_sheet",
-      "width" : 33,
-      "durationPerFrame" : 25,
-      "count" : 7
-    }
-  }, {
-    "id" : "toy_robots_anim",
-    "description" : "Smash'em Bash'em Robots",
-    "aliases" : [ "robots" ],
-    "image" : {
-      "textureSheet" : "storm_emoji_toy_robots_anim_sheet",
-      "width" : 40,
-      "durationPerFrame" : 120,
-      "count" : 10
-    }
-  }]
-}]
+[
+  {
+    "name": "Ghastly Ghosts Emoji Pack",
+    "emoticons": [
+      {
+        "id": "ghost_worry_anim",
+        "description": "Ghastly Ghosts Worry",
+        "image": {
+          "textureSheet": "storm_emoji_ghost_worry_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 150,
+          "count": 6
+        },
+        "aliases": [
+          ":ghostworry:"
+        ]
+      },
+      {
+        "id": "ghost_boogie_anim",
+        "description": "Ghastly Ghosts Boogie",
+        "image": {
+          "textureSheet": "storm_emoji_ghost_boogie_anim_sheet",
+          "width": 29,
+          "durationPerFrame": 100,
+          "count": 8
+        },
+        "aliases": [
+          ":ghostboogie:"
+        ]
+      },
+      {
+        "id": "ghost_cheer_anim",
+        "description": "Ghastly Ghosts Cheer",
+        "image": {
+          "textureSheet": "storm_emoji_ghost_cheer_anim_sheet",
+          "width": 26,
+          "durationPerFrame": 500,
+          "count": 2
+        },
+        "aliases": [
+          ":ghostcheer:"
+        ]
+      },
+      {
+        "id": "ghost_golfclap_anim",
+        "description": "Ghastly Ghosts Clap",
+        "image": {
+          "textureSheet": "storm_emoji_ghost_golfclap_anim_sheet",
+          "width": 19,
+          "durationPerFrame": 100,
+          "count": 4
+        },
+        "aliases": [
+          ":ghostclap:"
+        ]
+      },
+      {
+        "id": "ghost_rage_anim",
+        "description": "Ghastly Ghosts Rage",
+        "image": {
+          "textureSheet": "storm_emoji_ghost_rage_anim_sheet",
+          "width": 29,
+          "durationPerFrame": 50,
+          "count": 2
+        },
+        "aliases": [
+          ":ghostrage:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Silly \u0026 Spooky Emoji Pack",
+    "emoticons": [
+      {
+        "id": "spooky_ravenlol_anim",
+        "description": "Silly \u0026 Spooky Raven LOL",
+        "image": {
+          "textureSheet": "storm_emoji_spooky_ravenlol_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 60,
+          "count": 8
+        },
+        "aliases": [
+          ":spookyravenlol:"
+        ]
+      },
+      {
+        "id": "spooky_potg_anim",
+        "description": "Silly \u0026 Spooky PoTG",
+        "image": {
+          "textureSheet": "storm_emoji_spooky_potg_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 40,
+          "count": 9
+        },
+        "aliases": [
+          ":spookypotg:"
+        ]
+      },
+      {
+        "id": "spooky_worm_anim",
+        "description": "Silly \u0026 Spooky Worm",
+        "image": {
+          "textureSheet": "storm_emoji_spooky_worm_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 50,
+          "count": 8
+        },
+        "aliases": [
+          ":spookyworm:"
+        ]
+      },
+      {
+        "id": "spooky_spider_anim",
+        "description": "Silly \u0026 Spooky Spider",
+        "image": {
+          "textureSheet": "storm_emoji_spooky_spider_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 50,
+          "count": 8
+        },
+        "aliases": [
+          ":spookyspider:"
+        ]
+      },
+      {
+        "id": "spooky_rip_anim",
+        "description": "Silly \u0026 Spooky RIP",
+        "image": {
+          "textureSheet": "storm_emoji_spooky_rip_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 50,
+          "count": 26
+        },
+        "aliases": [
+          ":spookyrip:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Evil Eyes Emoji Pack",
+    "emoticons": [
+      {
+        "id": "eyeball_cthun_anim",
+        "description": "Evil Eyes C\u0027Thun",
+        "image": {
+          "textureSheet": "storm_emoji_eyeball_cthun_anim_sheet",
+          "width": 31,
+          "durationPerFrame": 50,
+          "count": 4
+        },
+        "aliases": [
+          ":eyeballcthun:"
+        ]
+      },
+      {
+        "id": "eyeball_kilrogg_anim",
+        "description": "Evil Eyes Kilrogg",
+        "image": {
+          "textureSheet": "storm_emoji_eyeball_kilrogg_anim_sheet",
+          "width": 31,
+          "durationPerFrame": 80,
+          "count": 16
+        },
+        "aliases": [
+          ":eyeballkilrogg:"
+        ]
+      },
+      {
+        "id": "eyeball_bloodlust_anim",
+        "description": "Evil Eyes Bloodlust",
+        "image": {
+          "textureSheet": "storm_emoji_eyeball_bloodlust_anim_sheet",
+          "width": 31,
+          "durationPerFrame": 50,
+          "count": 17
+        },
+        "aliases": [
+          ":eyeballbloodlust:"
+        ]
+      },
+      {
+        "id": "eyeball_ravenlord_anim",
+        "description": "Evil Eyes Ravenlord",
+        "image": {
+          "textureSheet": "storm_emoji_eyeball_ravenlord_anim_sheet",
+          "width": 31,
+          "durationPerFrame": 50,
+          "count": 14
+        },
+        "aliases": [
+          ":eyeballravenlord:"
+        ]
+      },
+      {
+        "id": "eyeball_human_anim",
+        "description": "Evil Eyes Human",
+        "image": {
+          "textureSheet": "storm_emoji_eyeball_human_anim_sheet",
+          "width": 31,
+          "durationPerFrame": 50,
+          "count": 16
+        },
+        "aliases": [
+          ":eyeballhuman:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cursed Cats Emoji Pack",
+    "emoticons": [
+      {
+        "id": "cat_dealwithit_anim",
+        "description": "Cursed Cats Deal with it",
+        "image": {
+          "textureSheet": "storm_emoji_cat_dealwithit_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 100,
+          "count": 23
+        },
+        "aliases": [
+          ":catdealwithit:"
+        ]
+      },
+      {
+        "id": "cat_puke_anim",
+        "description": "Cursed Cats Puke",
+        "image": {
+          "textureSheet": "storm_emoji_cat_puke_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 50,
+          "count": 12
+        },
+        "aliases": [
+          ":catpuke:"
+        ]
+      },
+      {
+        "id": "cat_blink_anim",
+        "description": "Cursed Cats Blink",
+        "image": {
+          "textureSheet": "storm_emoji_cat_blink_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 50,
+          "count": 29
+        },
+        "aliases": [
+          ":catblink:"
+        ]
+      },
+      {
+        "id": "cat_gleam_anim",
+        "description": "Cursed Cats Gleam",
+        "image": {
+          "textureSheet": "storm_emoji_cat_gleam_anim_sheet",
+          "width": 34,
+          "durationPerFrame": 50,
+          "count": 25
+        },
+        "aliases": [
+          ":catgleam:"
+        ]
+      },
+      {
+        "id": "cat_grumpy_anim",
+        "description": "Cursed Cats Grumpy",
+        "image": {
+          "textureSheet": "storm_emoji_cat_grumpy_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 300,
+          "count": 16
+        },
+        "aliases": [
+          ":catgrumpy:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chomp Pack",
+    "emoticons": [
+      {
+        "id": "chomp_wave_anim",
+        "description": "Chomp Wave",
+        "image": {
+          "textureSheet": "storm_emoji_chomp_wave_anim_sheet",
+          "width": 38,
+          "durationPerFrame": 100,
+          "count": 6
+        },
+        "aliases": [
+          ":chompwave:"
+        ]
+      },
+      {
+        "id": "chomp_pet_anim",
+        "description": "Chomp Pet",
+        "image": {
+          "textureSheet": "storm_emoji_chomp_pet_anim_sheet",
+          "width": 37,
+          "durationPerFrame": 500,
+          "count": 2
+        },
+        "aliases": [
+          ":chomppet:"
+        ]
+      },
+      {
+        "id": "chomp_growl_anim",
+        "description": "Chomp Growl",
+        "image": {
+          "textureSheet": "storm_emoji_chomp_growl_anim_sheet",
+          "width": 35,
+          "durationPerFrame": 100,
+          "count": 2
+        },
+        "aliases": [
+          ":chompgrowl:"
+        ]
+      },
+      {
+        "id": "chomp_paku_anim",
+        "description": "Chomp Paku",
+        "image": {
+          "textureSheet": "storm_emoji_chomp_paku_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 100,
+          "count": 4
+        },
+        "aliases": [
+          ":chomppaku:"
+        ]
+      },
+      {
+        "id": "chomp_minion_anim",
+        "description": "Chomp Minion",
+        "image": {
+          "textureSheet": "storm_emoji_chomp_minion_anim_sheet",
+          "width": 39,
+          "durationPerFrame": 100,
+          "count": 4
+        },
+        "aliases": [
+          ":chompminion:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Plushie Pack",
+    "emoticons": [
+      {
+        "id": "toy_bear_anim",
+        "description": "Bear Hug",
+        "image": {
+          "textureSheet": "storm_emoji_toy_bear_anim_sheet",
+          "width": 39,
+          "durationPerFrame": 150,
+          "count": 12
+        },
+        "aliases": [
+          ":bearhug:"
+        ]
+      },
+      {
+        "id": "toy_nerfthis_anim",
+        "description": "Nerf this!",
+        "image": {
+          "textureSheet": "storm_emoji_toy_nerfthis_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 62,
+          "count": 4
+        },
+        "aliases": [
+          ":nerfthis:"
+        ]
+      },
+      {
+        "id": "toy_turd_anim",
+        "description": "Rainbow Poo",
+        "image": {
+          "textureSheet": "storm_emoji_toy_turd_anim_sheet",
+          "width": 26,
+          "durationPerFrame": 120,
+          "count": 8
+        },
+        "aliases": [
+          ":rainbowpoo:"
+        ]
+      },
+      {
+        "id": "toy_minion_anim",
+        "description": "Wind-up Minion",
+        "image": {
+          "textureSheet": "storm_emoji_toy_minion_anim_sheet",
+          "width": 30,
+          "durationPerFrame": 160,
+          "count": 6
+        },
+        "aliases": [
+          ":toyminion:"
+        ]
+      },
+      {
+        "id": "toy_train_anim",
+        "description": "Train",
+        "image": {
+          "textureSheet": "storm_emoji_toy_train_anim_sheet",
+          "width": 37,
+          "durationPerFrame": 200,
+          "count": 6
+        },
+        "aliases": [
+          ":train:"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Toys Pack",
+    "emoticons": [
+      {
+        "id": "toy_cosmicflurry_anim",
+        "description": "Cosmic Flurry",
+        "image": {
+          "textureSheet": "storm_emoji_toy_cosmicflurry_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 100,
+          "count": 5
+        },
+        "aliases": [
+          ":cosmicflurry:"
+        ]
+      },
+      {
+        "id": "toy_dice_anim",
+        "description": "Dice Roll",
+        "image": {
+          "textureSheet": "storm_emoji_toy_dice_anim_sheet",
+          "width": 37,
+          "durationPerFrame": 100,
+          "count": 6
+        },
+        "aliases": [
+          ":dice:"
+        ]
+      },
+      {
+        "id": "toy_dino_anim",
+        "description": "Dino Fight",
+        "image": {
+          "textureSheet": "storm_emoji_toy_dino_anim_sheet",
+          "width": 34,
+          "durationPerFrame": 80,
+          "count": 4
+        },
+        "aliases": [
+          ":dinofight:"
+        ]
+      },
+      {
+        "id": "toy_herospinner_anim",
+        "description": "Heroes Spinner!",
+        "image": {
+          "textureSheet": "storm_emoji_toy_herospinner_anim_sheet",
+          "width": 33,
+          "durationPerFrame": 25,
+          "count": 7
+        },
+        "aliases": [
+          ":herospinner:"
+        ]
+      },
+      {
+        "id": "toy_robots_anim",
+        "description": "Smash\u0027em Bash\u0027em Robots",
+        "image": {
+          "textureSheet": "storm_emoji_toy_robots_anim_sheet",
+          "width": 40,
+          "durationPerFrame": 120,
+          "count": 10
+        },
+        "aliases": [
+          ":robots:"
+        ]
+      }
+    ]
+  }
+]

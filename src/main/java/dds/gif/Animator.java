@@ -22,6 +22,7 @@ public class Animator {
 	private static final ClassLoader loader = Animator.class.getClassLoader();
 	private static final String fileExt = "png";
 	private static final String charset = "UTF-8";
+	private static final boolean debug = false;
 	
 	private static String DATA_FILE;
 	private static String INPUT_DIR;
@@ -72,8 +73,10 @@ public class Animator {
 		BufferedImage[] frames = ImageUtils.split(image, rows, cols, emoticon.getImage().getCount(), emoticon.getImage().getWidth());
 		BufferedImage[] padded = ImageUtils.fitImages(frames, FRAME_MAX_WIDTH, FRAME_MAX_HEIGHT);
 		ImageUtils.writeAnimation(padded, name, OUTPUT_DIR, emoticon.getImage().getDurationPerFrame(), true);
-		ImageUtils.writeImage(image, name, fileExt, OUTPUT_DIR);
-		ImageUtils.writeImages(padded, name, fileExt, OUTPUT_DIR);
+		if (debug) {
+			ImageUtils.writeImage(image, name, fileExt, OUTPUT_DIR);
+			ImageUtils.writeImages(padded, name, fileExt, OUTPUT_DIR);
+		}
 	}
 
 	private static String getStr(Properties props, String prop) {

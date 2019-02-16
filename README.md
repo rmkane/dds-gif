@@ -14,6 +14,10 @@ The following files/directories were used to create `emoji-packs.json`:
 
 ### Texture spritesheets
 
+The format for the filenames is: `*storm_emoji_*_anim_sheet.dds`
+
+Examples:
+
 - `storm_emoji_toy_bear_anim_sheet.dds`
 - `storm_emoji_toy_cosmicflurry_anim_sheet.dds`
 - `storm_emoji_toy_dice_anim_sheet.dds`
