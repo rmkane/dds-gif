@@ -1,6 +1,6 @@
 # DDS to GIF
 
-Converts a list DDS files to animated GIF images.
+Converts a list of DDS files to animated GIF images.
 
 ## Extraction
 
@@ -8,9 +8,9 @@ Use Casc View is an extraction tool for Heroes of the Storm.
 
 The following files/directories were used to create `emoji-packs.json`:
 
-- `mods/heroesdata.stormmod/base.stormdata/GameData/EmoticonData.xml`
-- `mods/heroesdata.stormmod/enus.stormdata/LocalizedData/GameStrings.txt`
-- `mods/heroes.stormmod/base.stormassets/Assets/Textures/`
+- `mods\heroesdata.stormmod\base.stormdata\GameData\EmoticonData.xml`
+- `mods\heroesdata.stormmod\enus.stormdata\LocalizedData\GameStrings.txt`
+- `mods\heroes.stormmod\base.stormassets\Assets\Textures/`
 
 ### Texture spritesheets
 

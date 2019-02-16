@@ -4,6 +4,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.nio.file.Paths;
 
 import javax.imageio.ImageIO;
 import javax.imageio.stream.FileImageOutputStream;
@@ -20,7 +21,7 @@ public class ImageUtils {
 	}
 
 	public static BufferedImage loadImage(String filename, String path) throws IOException {
-		return ImageIO.read(loader.getResourceAsStream(String.format("%s%s", path, filename)));
+		return ImageIO.read(loader.getResourceAsStream(String.format("%s", Paths.get(path, filename))));
 
 	}
 
@@ -45,12 +46,9 @@ public class ImageUtils {
 		return filename.substring(0, filename.lastIndexOf('.'));
 	}
 
-	public static void writeAnimation(BufferedImage[] frames, String name, String path, long delayTime,
-			boolean loopForever) throws FileNotFoundException, IOException {
-		new File(path).mkdir();
-		ImageOutputStream output = new FileImageOutputStream(new File(String.format("%s%s.%s", path, name, "gif")));
-		GifSequenceWriter writer = new GifSequenceWriter(output, frames[0].getType(), (int) delayTime, loopForever,
-				DisposalMode.RESTORE_BACKGROUND);
+	public static void writeAnimation(BufferedImage[] frames, String name, String path, long delayTime, boolean loopForever) throws FileNotFoundException, IOException {
+		ImageOutputStream output = new FileImageOutputStream(new File(String.format("%s.%s", Paths.get(path, name), "gif")));
+		GifSequenceWriter writer = new GifSequenceWriter(output, frames[0].getType(), (int) delayTime, loopForever, DisposalMode.RESTORE_BACKGROUND);
 		for (BufferedImage frame : frames) {
 			writer.writeToSequence(frame);
 		}
@@ -59,18 +57,15 @@ public class ImageUtils {
 	}
 
 	public static void writeImage(BufferedImage image, String name, String ext, String path) throws IOException {
-		String filename = String.format("%s%s.%s", path, name, ext);
-		new File(path).mkdir();
+		String filename = String.format("%s.%s", Paths.get(path, name), ext);
 		ImageIO.write(image, ext, new File(filename));
 	}
 
-	public static void writeImage(BufferedImage image, String name) throws IOException {
-		writeImage(image, name, "png", "out");
-	}
-
-	public static void writeImages(BufferedImage[] frames, String name) throws IOException {
+	public static void writeImages(BufferedImage[] frames, String name, String ext, String path) throws IOException {
+		int digits = (int) (Math.floor(Math.log10(frames.length - 1)) + 1);
+		String filenameFormat = String.format("%%s_%%0%dd", digits);
 		for (int i = 0; i < frames.length; i++) {
-			writeImage(frames[i], String.format("%s_%d", name, i));
+			writeImage(frames[i], String.format(filenameFormat, name, i), ext, path);
 		}
 	}
 

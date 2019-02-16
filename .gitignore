@@ -92,5 +92,5 @@ atlassian-ide-plugin.xml
 .gradletasknamecache
 
 # Code-specific
-src/main/resources/images/
+src/main/resources/data/
 /out
